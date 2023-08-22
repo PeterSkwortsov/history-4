@@ -1,0 +1,82 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  overflow-x: hidden;
+  background-color: #FFF3C3;
+}
+
+@font-face {
+  font-family: 'SANTELLO';
+  src: local("SANTELLO"), url("./Fonts/SANTELLO.ttf"), url("./Fonts/SANTELLO.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Vasilec';
+  src: local("Vasilec"), url("./Fonts/Vasek Italic_0.ttf"), url("./Fonts/Vasek Italic_0.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Didact';
+  src: local("Didact"), url("./Fonts/new/Didact_Gothic/DidactGothic.ttf"), url("./Fonts/new/Didact_Gothic/DidactGothic.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+.container {
+  margin: 0 auto;
+  height: 100vh;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: 'SANTELLO', sans-serif;
+  color: #231E8D;
+}
+h1 span {
+  font-size: 40px;
+  text-align: start;
+  font-weight: 10px;
+  color: #4F6EBB;
+}
+
+h2 {
+  font-family: 'Vasilec', sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  margin: 15px;
+}
+
+.button-info {
+  width: 176px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  border-radius: 40px;
+  border: none;
+  background: white;
+  color: #3B3B3B;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: 'Didact';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.video_o_nas {
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
