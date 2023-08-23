@@ -7,10 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
+    <!-- <link rel="icon" type="" href=""> Подключи фавикон --> 
+
     <link rel="stylesheet" href="Fonts/SANTELLO.ttf">
     <link rel="stylesheet" href="Fonts/LICENSE.txt">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200,300,400&" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
+
 
     <title>Document</title>
 </head>
@@ -25,13 +27,21 @@
     
 
         <div class="video_o_nas">
-            <iframe width="800px" height="500px" src="https://www.youtube.com/embed/4m5jW_6i2J4?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-            </iframe>
-        </div>
-            <span class="opisanie">В данном видео мы рассказываем об идеи проекта, команде и процессе работы</span>
+                <iframe width="800px" height="500px" src="https://www.youtube.com/embed/4m5jW_6i2J4?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+          
+            <span class="opisanie" id="opisanie">В данном видео мы рассказываем об идеи проекта, команде и процессе работы</span>
 
         <div class="project_info">
-            <img src="img/024.jpg" alt="Илюстрация книги" class="project_info_img">
+            
+            <img src="img/034.jpg" class="img" alt="Илюстрация книги">
+
+           <div class="pop-up">
+            <span>&times;</span>
+            <img src="img/034.jpg" width="800px" height="550px" alt="">
+           </div>
+
             <div class="project_info_blok">
                 <h2>В чем суть проекта?</h2>
                 <br>
@@ -53,14 +63,75 @@
             <h2>Варианты биографии</h2>
             <span>У нас есть 3 основных формата сохранения семейной истории.</span>
 
-            <div class="biografy_book">
-                <div class="biografy_title"></div>
-                    <div class="biografy_discription"></div>
-                    <div class="biografy_video"></div>
+            <div class="biografy_book-1">
+                    <div class="biografy_discription">
+
+                        <h3>Биография в книге</h3>
+                        <b>Сохранение вашей семейной истории в
+                            красивой книге с текстом и фотографиями.
+                        </b>
+                        <hr>
+                        <ul>
+                            <li>Проведение интервью</li>
+                            <li>Сканирование и подпись фотографий, документов,
+                                фотосъемка наград</li>
+                            <li>Обработка и ретушь всех оцифрованных снимков</li>
+                            <li>Перевод аудио в текст и его редактура</li>
+                            <li>Разработка индивидуального дизайна страниц</li>
+                            <li>Вёрстка и печать книги</li>                      
+                        </ul><br>
+                        <span>От 80 000 руб.</span>
+                        <button class="button-info-book">Подробнее</button>
+                    </div>
+
+                        <div class="biografy_video">
+                            <iframe width="600" height="320" src="https://www.youtube.com/embed/RmT7zs5G2z8?si=5fNUlZDgr4ETG3bO&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+            </div>
+        </div>
+
+            <div class="biografy_book-2">
+                    <div class="biografy_discription">
+
+                        <h3>Видеобиография</h3>
+                        <b>Видеоролик с интервью близкого человека, дополненное материалами из семейного архива, музыкой и слайдами с датами.
+                        </b>
+                        <hr>
+                        <ul>
+                            <li>Проведение интервью</li>
+                            <li>Видеосъёмка с двух камер</li>
+                            <li>Сканирование и обработка архивных
+                                фотографий</li>
+                            <li>Монтаж видеоролика длиной от 15 до 25
+                                минут</li>
+                            <li>Исходник с полным интервью и
+                                оцифрованные фото в электронном виде</li>
+                            <li>Именная флешка в подарочной упаковке</li>                      
+                        </ul><br>
+                        <span>От 45 000 руб.</span>
+                        <button class="button-info-book">Подробнее</button>
+                    </div>
+
+                        <div class="biografy_video">
+                            <iframe width="600" height="320" src="https://www.youtube.com/embed/KJ1QdEwapIM?start=31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
             </div>
         </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+<!-- <span>Изображение от <a href="https://ru.freepik.com/">Freepik</a></span> -->
+<!-- <a href="https://www.flaticon.com/ru/free-icons/-" title="изогнутая стрелка иконки">Изогнутая стрелка иконки от Nuion - Flaticon</a> -->
+<!-- <a target="_blank" href="https://icons8.com/icon/Gvq4CL3hxDVR/открытая-книга">Открытая Книга</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+<script src="script.js"></script>
 
 </body>
 </html>

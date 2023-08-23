@@ -61,6 +61,7 @@ h5 {
 }
 
 .button-info {
+  cursor: pointer;
   width: 176px;
   height: 55px;
   align-items: center;
@@ -85,9 +86,11 @@ h5 {
   top: -48px;
   left: 558px;
   background-image: url(./img/ilustration-transformed.png);
+  background-repeat: no-repeat;
 }
 
 .video_o_nas {
+  position: relative;
   display: flex;
   height: 500px;
   margin-top: 20px;
@@ -105,9 +108,9 @@ h5 {
 
 .project_info {
   display: flex;
-  max-width: 1430px;
+  max-width: 1450px;
   background-color: white;
-  padding: 25px 50px 25px 70px;
+  padding: 2% 10% 2%;
   margin: 0 auto;
   justify-content: space-between;
   font-family: 'Didact', sans-serif;
@@ -115,36 +118,143 @@ h5 {
 
 .project_info_img {
   display: block;
-  height: 45%;
   width: 45%;
-  margin-top: 3%;
+  object-fit: cover;
+}
+
+.img {
+  overflow: hidden;
+  width: 70%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.pop-up img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.pop-up span {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .project_info_blok {
   font-family: 'Didact', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   padding: 0 0 0 40px;
 }
 .project_info_blok h2 {
   font-family: 'SANTELLO', sans-serif;
   font-size: 40px;
   color: #231E8D;
+  margin: 0;
 }
 .project_info_blok h3 {
   color: #4F6EBB;
-}
-.project_info_blok hr {
-  width: 50px;
-  margin-top: 15px;
-  height: 1px;
-  color: black;
-  background-color: #3B3B3B;
 }
 .project_info_blok li {
   font-size: 18px;
 }
 
+.biografy_book-1 {
+  display: flex;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 2% 8% 2%;
+  gap: 40px;
+}
+
+.biografy_book-2 {
+  display: flex;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 2% 8% 2%;
+  gap: 40px;
+  flex-direction: row-reverse;
+}
+
 .choise_biografy h2 {
   font-family: 'SANTELLO', sans-serif;
+  color: #231E8D;
   font-size: 40px;
+  text-align: center;
+}
+.choise_biografy span {
+  display: block;
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 33px;
+}
+
+.biografy_discription h3 {
+  font-family: 'SANTELLO', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #4F6EBB;
+  margin: 0 0 22px 0;
+}
+.biografy_discription b {
+  font-family: 'Didact',sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.biografy_discription .button-info {
+  display: block;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.biografy_discription ul {
+  font-size: 18px;
+}
+.biografy_discription span {
+  font-size: 20px;
+}
+
+.biografy_video {
+  align-self: center;
+}
+
+.button-info-book {
+  margin: 0 auto;
+  width: 176px;
+  height: 55px;
+  display: block;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 40px;
+  border: none;
+  background: white;
+  color: #3B3B3B;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: 'Didact';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
 }
