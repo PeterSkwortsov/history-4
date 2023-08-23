@@ -1,7 +1,7 @@
 $color-body: #FFF3C3;
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Didact', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	color: black;
@@ -43,39 +43,45 @@ body {
 .container {
 
 	margin: 0 auto;
-	height: 100vh;
+	height: 1230px;
 }
 
 header {
+	position: relative;
 	margin: 0 auto;
 	text-align: center;
+
+	h1 {
+		font-size: 70px;
+		font-family: 'SANTELLO', sans-serif;
+		color: #231E8D;
+		span {
+			font-size: 40px;
+			text-align: start;
+			font-weight: 10px;
+			color: #4F6EBB
+			;
+		} 		
+	}
+	
+	h2 {
+		font-family: 'Vasilec', sans-serif;
+		font-size: 60px;
+		font-weight: lighter;
+		margin: 15px;
+	
+	}
 }
 
-h1 {
-	font-size: 70px;
-	font-family: 'SANTELLO', sans-serif;
-	color: #231E8D;
-	span {
-		font-size: 40px;
-		text-align: start;
-		font-weight: 10px;
-		color: #4F6EBB
-		;
-	} 		
+
+
+h5 {
+	font-family: 'Didact', sans-serif;
 }
-
-h2 {
-	font-family: 'Vasilec', sans-serif;
-	font-size: 60px;
-	font-weight: lighter;
-	margin: 15px;
-
-}
-
 .button-info {
 	
 	width: 176px;
-	height: 40px;
+	height: 55px;
 	
 	align-items: center;
 	text-align: center;
@@ -91,11 +97,85 @@ h2 {
 }
 // что о не то со шрифтом для кнопки!!! РАЗБЕРИСЬ!
 
+.ilustration {
+	position: absolute;
+	display: flex;
+	width: 20%;
+	height: 75%;
+	z-index: -1;
+	top: -48px;
+	left: 558px;
+	background-image: url(./img/ilustration-transformed.png)
+
+}
+
 .video_o_nas {
+	display: flex;
 	height: 500px;
 	margin-top: 20px;
-	margin-bottom: 20px;
 	display: flex;
 	justify-content: center;
 
+}
+
+.opisanie {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.project_info {
+	display: flex;
+	max-width: 1430px;
+    background-color: white;
+    padding: 25px 50px 25px 70px;
+    margin: 0 auto;
+    justify-content: space-between;
+	font-family: 'Didact', sans-serif;
+
+
+}
+
+.project_info_img {
+	display: block;
+	height: 45%;
+	width: 45%;
+	margin-top: 3%;
+}
+
+.project_info_blok {
+	font-family: 'Didact', sans-serif;
+	font-size: 18px;
+	padding: 0 0 0 40px;
+
+	h2 {
+		font-family: 'SANTELLO', sans-serif;
+		font-size: 40px;
+		color: #231E8D;
+	}
+	h3 {
+		color: #4F6EBB
+	}
+	hr {
+		width: 50px;
+		margin-top: 15px;
+		height: 1px;
+		color: black;
+		background-color: #3B3B3B;
+	}
+
+	li {
+		font-size: 18px;
+	}
+}
+
+.choise_biografy {
+
+
+	h2 {
+		font-family: 'SANTELLO', sans-serif;
+		font-size: 40px;
+	}
 }
