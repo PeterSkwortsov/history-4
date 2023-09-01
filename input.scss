@@ -296,7 +296,7 @@ body {
   .card__o_nas-2 {
 	display: block;
 	width: 550px;
-	height: 60%;
+	height: 350px;
 	border-radius: 30px;
 	filter: blur(2px);
   }
@@ -338,4 +338,93 @@ body {
 	font-style: normal;
 	font-weight: 400;
   }
+
+  .button-info-book-wite {
+	margin: 0 auto;
+	width: 176px;
+	height: 55px;
+	display: block;
+	cursor: pointer;
+	margin-top: -2px;
+	border-radius: 30px;
+	border: none;
+	background: rgb(46, 44, 44);
+	color: #fff;
+	box-shadow: 0px 4px 4px 0px rgba(141, 127, 127, 0.25);
+	font-family: 'Didact';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+  }
+
+.film {
+	background-color: #fff;
+	margin: 0 auto;
+	padding-top: 40px;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 250px;
+	padding-bottom: 20px;
+
+	h2 {
+	font-family: 'SANTELLO', sans-serif;
+    font-size: 40px;
+    color: $blue-bold;
+    margin: 0;
+	text-align: center;
+	}
+
+	span {
+	display: block;
+	margin: 0 auto;
+	font-family: 'Didact',sans-serif;
+    font-size: 25px;
+    text-align: center;
+	width: 1300px;
+	}
+
+	h5 {
+		font-family: 'SANTELLO', sans-serif;
+		font-size: 25px;
+		text-align: center;
+	}
+}
+
+.forma__foto {
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-radius: 30px;
+	margin-top: 1px;
+
+}
+.first {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.first__title {
+	position: relative;
+	z-index: 10;
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	font-family: 'SANTELLO', sans-serif;
+	font-size: clamp(20px, 10vw, 100px);
+}
+
+.first__video {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
   
