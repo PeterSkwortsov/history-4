@@ -1,12 +1,18 @@
-let img = document.querySelector('.img');
+const img = document.querySelector('.img');
+const popUp = document.querySelector('.pop-up');
+const popUpImg = document.querySelector('.pop-up img');
+const popUpClose = document.querySelector('.pop-up span');
+const overlay = document.querySelector('.overlay');
 
-img.addEventListener('click', function () {
-    document.querySelector('.pop-up').style.display = 'block';
-    document.querySelector('.pop-up img').src = img.getAttribute('src');
+img.addEventListener('click', ()=> {
+    popUp.style.display = 'block';
 })
 
-let x = document.querySelector('.pop-up span');
-x.addEventListener('click', function () {
-    document.querySelector('.pop-up').style.display = 'none';
+overlay.addEventListener('click', () => {
+    popUp.style.display = 'none';
+});
 
-})
+popUpClose.addEventListener('click', () => {
+    popUp.style.display = 'none';
+});
+

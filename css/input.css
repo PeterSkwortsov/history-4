@@ -1,5 +1,5 @@
 body {
-  font-family: 'Didact', sans-serif;
+  font-family: "Didact", sans-serif;
   font-weight: 300;
   font-size: 20px;
   color: black;
@@ -8,21 +8,21 @@ body {
 }
 
 @font-face {
-  font-family: 'SANTELLO';
+  font-family: "SANTELLO";
   src: local("SANTELLO"), url("./Fonts/SANTELLO.ttf"), url("./Fonts/SANTELLO.ttf");
   font-weight: 300;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Vasilec';
+  font-family: "Vasilec";
   src: local("Vasilec"), url("./Fonts/Vasek Italic_0.ttf"), url("./Fonts/Vasek Italic_0.ttf");
   font-weight: normal;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Didact';
+  font-family: "Didact";
   src: local("Didact"), url("./Fonts/new/Didact_Gothic/DidactGothic.ttf"), url("./Fonts/new/Didact_Gothic/DidactGothic.ttf");
   font-weight: normal;
   font-style: normal;
@@ -40,7 +40,7 @@ header {
 }
 header h1 {
   font-size: 70px;
-  font-family: 'SANTELLO', sans-serif;
+  font-family: "SANTELLO", sans-serif;
   color: #231E8D;
 }
 header h1 span {
@@ -50,14 +50,14 @@ header h1 span {
   color: #4F6EBB;
 }
 header h2 {
-  font-family: 'Vasilec', sans-serif;
+  font-family: "Vasilec", sans-serif;
   font-size: 60px;
   font-weight: lighter;
   margin: 15px;
 }
 
 h5 {
-  font-family: 'Didact', sans-serif;
+  font-family: "Didact", sans-serif;
 }
 
 .button-info {
@@ -71,7 +71,7 @@ h5 {
   background: white;
   color: #3B3B3B;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-family: 'Didact';
+  font-family: "Didact";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -92,18 +92,10 @@ h5 {
 .video_o_nas {
   position: relative;
   display: flex;
-  height: 450px;
+  height: 500px;
   margin-top: 20px;
+  display: flex;
   justify-content: center;
-  opacity: 0.9;
-}
-
-.button__play {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 150px;
-  transform: translate(-50%, -50%);
 }
 
 .opisanie {
@@ -121,34 +113,43 @@ h5 {
   padding: 2% 10% 2%;
   margin: 0 auto;
   justify-content: space-between;
-  font-family: 'Didact', sans-serif;
+  font-family: "Didact", sans-serif;
 }
 
-.project_info_img {
-  display: block;
-  width: 45%;
-  object-fit: cover;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
 }
 
-.blok_foto {
-  margin: 50px 50px;
+.hidden {
+  display: none !important;
 }
 
 .img {
-  width: 60%;
-  height: 80%;
+  width: 70%;
+  height: 100%;
   cursor: pointer;
   border-radius: 5px;
 }
 
 .pop-up {
-  position: fixed;
+  display: block;
+  position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  display: none;
+  z-index: 2;
 }
 
 .pop-up img {
@@ -157,7 +158,8 @@ h5 {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 5px solid #fff;
-  border-radius: 30px;
+  border-radius: 5px;
+  z-index: 2;
 }
 
 .pop-up span {
@@ -175,29 +177,13 @@ h5 {
   cursor: pointer;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0,0,0,0.5);
-  width: 100%;
-  height: 100%;
-  z-index: -2;
-}
-
-.hidden {
-  display: none;
-}
-
 .project_info_blok {
-  font-family: 'Didact', sans-serif;
+  font-family: "Didact", sans-serif;
   font-size: 20px;
   padding: 0 0 0 40px;
 }
 .project_info_blok h2 {
-  font-family: 'SANTELLO', sans-serif;
+  font-family: "SANTELLO", sans-serif;
   font-size: 40px;
   color: #231E8D;
   margin: 0;
@@ -227,7 +213,7 @@ h5 {
 }
 
 .choise_biografy h2 {
-  font-family: 'SANTELLO', sans-serif;
+  font-family: "SANTELLO", sans-serif;
   color: #231E8D;
   font-size: 40px;
   text-align: center;
@@ -240,14 +226,14 @@ h5 {
 }
 
 .biografy_discription h3 {
-  font-family: 'SANTELLO', sans-serif;
+  font-family: "SANTELLO", sans-serif;
   font-size: 30px;
   text-align: center;
   color: #4F6EBB;
   margin: 0 0 22px 0;
 }
 .biografy_discription b {
-  font-family: 'Didact',sans-serif;
+  font-family: "Didact", sans-serif;
   font-size: 25px;
   text-align: center;
 }
@@ -281,8 +267,8 @@ h5 {
   background: white;
   color: #3B3B3B;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-family: 'Didact';
+  font-family: "Didact";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-}
+}/*# sourceMappingURL=input.css.map */
