@@ -66,7 +66,7 @@ h5 {
   height: 55px;
   align-items: center;
   text-align: center;
-  border-radius: 40px;
+  border-radius: 30px;
   border: none;
   background: white;
   color: #3B3B3B;
@@ -79,12 +79,11 @@ h5 {
 
 .ilustration {
   position: absolute;
-  display: flex;
-  width: 20%;
-  height: 75%;
+  height: 100%;
   z-index: -1;
-  top: -48px;
-  left: 558px;
+  top: 1px;
+  align-items: center;
+  justify-content: center;
   background-image: url(./img/ilustration-transformed.png);
   background-repeat: no-repeat;
 }
@@ -106,6 +105,19 @@ h5 {
   transform: translate(-50%, -50%);
 }
 
+.button__play-2 {
+  position: absolute;
+  top: 50%;
+  left: 275px;
+  width: 150px;
+  transform: translate(-50%, -50%);
+}
+
+.card__o_nas {
+  border-radius: 30px;
+  filter: blur(2px);
+}
+
 .opisanie {
   display: flex;
   justify-content: center;
@@ -114,31 +126,25 @@ h5 {
   margin-bottom: 25px;
 }
 
-.project_info {
-  display: flex;
-  max-width: 1450px;
-  background-color: white;
-  padding: 2% 10% 2%;
-  margin: 0 auto;
-  justify-content: space-between;
-  font-family: 'Didact', sans-serif;
-}
-
-.project_info_img {
-  display: block;
-  width: 45%;
-  object-fit: cover;
-}
-
 .blok_foto {
   margin: 50px 50px;
 }
 
 .img {
-  width: 60%;
-  height: 80%;
+  max-width: 600px;
+  height: 85%;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 30px;
+}
+
+.project_info {
+  display: flex;
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  font-family: 'Didact', sans-serif;
 }
 
 .pop-up {
@@ -181,7 +187,7 @@ h5 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
   z-index: -2;
@@ -194,7 +200,7 @@ h5 {
 .project_info_blok {
   font-family: 'Didact', sans-serif;
   font-size: 20px;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 30px;
 }
 .project_info_blok h2 {
   font-family: 'SANTELLO', sans-serif;
@@ -212,9 +218,61 @@ h5 {
 .biografy_book-1 {
   display: flex;
   max-width: 1450px;
-  margin: 0 auto;
-  padding: 2% 8% 2%;
+  margin: 0px auto;
+  padding: 2% 8%;
   gap: 40px;
+}
+
+.biografy_discription-1 h3 {
+  font-family: 'SANTELLO', sans-serif;
+  font-size: 30px;
+  text-align: start;
+  color: #4F6EBB;
+  margin: 0 0 22px 0;
+}
+.biografy_discription-1 b {
+  font-family: 'Didact',sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.biografy_discription-1 .button-info {
+  display: block;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.biografy_discription-1 ul {
+  font-size: 18px;
+}
+.biografy_discription-1 span {
+  font-size: 20px;
+}
+
+.biografy_discription-2 h3 {
+  font-family: 'SANTELLO', sans-serif;
+  font-size: 30px;
+  text-align: start;
+  color: #4F6EBB;
+  margin: 0 0 22px 0;
+}
+.biografy_discription-2 b {
+  font-family: 'Didact',sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.biografy_discription-2 .button-info {
+  display: block;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.biografy_discription-2 ul {
+  font-size: 18px;
+}
+.biografy_discription-2 span {
+  font-size: 20px;
 }
 
 .biografy_book-2 {
@@ -224,6 +282,14 @@ h5 {
   padding: 2% 8% 2%;
   gap: 40px;
   flex-direction: row-reverse;
+}
+
+.card__o_nas-2 {
+  display: block;
+  width: 550px;
+  height: 60%;
+  border-radius: 30px;
+  filter: blur(2px);
 }
 
 .choise_biografy h2 {
@@ -239,34 +305,9 @@ h5 {
   margin-bottom: 33px;
 }
 
-.biografy_discription h3 {
-  font-family: 'SANTELLO', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  color: #4F6EBB;
-  margin: 0 0 22px 0;
-}
-.biografy_discription b {
-  font-family: 'Didact',sans-serif;
-  font-size: 25px;
-  text-align: center;
-}
-.biografy_discription .button-info {
-  display: block;
-  align-self: center;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-.biografy_discription ul {
-  font-size: 18px;
-}
-.biografy_discription span {
-  font-size: 20px;
-}
-
-.biografy_video {
-  align-self: center;
+.biografy_video-1 {
+  position: relative;
+  align-self: flex-start;
 }
 
 .button-info-book {
@@ -275,8 +316,8 @@ h5 {
   height: 55px;
   display: block;
   cursor: pointer;
-  margin-top: 10px;
-  border-radius: 40px;
+  margin-top: -2px;
+  border-radius: 30px;
   border: none;
   background: white;
   color: #3B3B3B;
