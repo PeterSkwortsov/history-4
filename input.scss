@@ -1,6 +1,7 @@
 $color-body: #FFF3C3;
 $blue-light: #4F6EBB;
 $blue-bold: #231E8D;
+$black: #2e2c2c;
 
 body {
 	font-family: 'Didact', sans-serif;
@@ -45,12 +46,27 @@ body {
 		font-size: 70px;
 		font-family: 'SANTELLO', sans-serif;
 		color: $blue-bold;
+		opacity: 0;
+		animation: ani 2.5s forwards;
+	  
+	  @keyframes ani {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	  }
 		} 
   		h1 span {
 		font-size: 40px;
 		text-align: start;
 		font-weight: 10px;
 		color: $blue-light;
+
+		opacity: 0;
+		animation: ani 2.5s forwards;
+	  
+	  @keyframes ani {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	  }
   		}
    		h2 {
 		font-family: 'Vasilec', sans-serif;
@@ -92,6 +108,7 @@ body {
 	background-repeat: no-repeat;
   }
   
+  
   .video_o_nas {
 	position: relative;
 	display: flex;
@@ -115,11 +132,18 @@ body {
 	left: 275px;
 	width: 150px;
 	transform: translate(-50%, -50%);
+	
+  }
+  .button__play-2:hover {
+	filter: blur(0px);
   }
   
   .card__o_nas {
 	border-radius: 30px;
-	filter: blur(2px);
+	filter: blur(3px);
+  }
+  .card__o_nas:hover {
+	filter: blur(0px);
   }
 
   
@@ -201,6 +225,12 @@ body {
   .hidden {
 	display: none;
   }
+
+  .active {
+	display: block;
+  }
+
+
   
   .project_info_blok {
 	font-family: 'Didact', sans-serif;
@@ -219,13 +249,18 @@ body {
 		font-size: 18px;
 	}
 }
+
+.project_info_blok ul li:hover {
+	color: $blue-bold;
+	cursor: pointer;
+}
   
   .biografy_book-1 {
 	display: flex;
     max-width: 1450px;
     margin: 0px auto;
     padding: 2% 8%;
-    gap: 40px;
+    gap: 15px;
   }
 
   
@@ -256,6 +291,11 @@ body {
 	font-size: 20px;
   }
 }
+
+.biografy_discription-1 ul li:hover {
+	color: $blue-bold;
+	cursor: pointer;
+}
 .biografy_discription-2 {
 
   h3 {
@@ -284,6 +324,11 @@ body {
 	font-size: 20px;
   }
 }
+
+.biografy_discription-2 ul li:hover {
+	color: $blue-bold;
+	cursor: pointer;
+}
   .biografy_book-2 {
 	display: flex;
 	max-width: 1450px;
@@ -298,7 +343,10 @@ body {
 	width: 550px;
 	height: 350px;
 	border-radius: 30px;
-	filter: blur(2px);
+	filter: blur(3px);
+  }
+  .card__o_nas-2:hover {
+	filter: blur(0px);
   }
   .choise_biografy {
 		h2 {
@@ -425,6 +473,172 @@ body {
 	height: 100%;
 	object-fit: cover;
 }
+.super_proect-title {
+	display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+	font-family: 'SANTELLO', sans-serif;
+
+}
 
 
+.accardeon {
+	display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: 'Didact', sans-serif;
+}
+
+.accordion-img {
+	max-width: 600px;
+    height: 85%;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.container-accor {
+    max-width: 500px;
+    padding-left: 30px;
+}
   
+.label {
+    position: relative;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px 10px 8px 8px;
+    background-color: #2e2c2c;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 0px 20px 0 0;
+	font-family: 'SANTELLO', sans-serif;
+}
+
+
+.label:hover {
+    color: #FDEAA8;
+    transition: 0.5s ease;
+}
+
+
+.label::after {
+    position: absolute;
+    content: url("./img/arrowup.svg");
+    top: 55%;
+    transform: translateY(-50%);
+    right: 28px;
+  
+}
+
+.content {
+    display: none;
+}
+.content p {
+    padding: 20px;
+    background-color: white;
+    margin-top: 0;
+    overflow: hidden;
+	font-family: 'Didact',sans-serif;
+	font-size: 20px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.green {
+    color:  #FDEAA8;
+}
+
+// блок с аккардионом
+.container-all {
+    display: flex;
+    max-width: 1450px;
+    margin: 0px auto;
+    padding: 2% 15%;
+    gap: 122px;
+} 
+.accardeon-block {
+	position: relative;
+    align-self: flex-start;
+}
+
+.accardeon-img {
+	display: block;
+	width: 100%;
+	height: 520px;
+	border-radius: 30px;
+}
+
+.about {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 40px 40px 0 40px;
+	h3 {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		align-items: center;
+
+	}
+	p {
+		width: 900px;
+		display: flex;
+		margin: 0 auto;
+		align-items: center;
+		margin-bottom: 40px;
+		text-align: center;
+
+	}
+}
+
+.about-crug {
+	display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.denis-img {
+	display: block;
+    width: 428px;
+    /* height: 350px; */
+    border-radius: 100%;
+}
+.katia-img {
+	display: block;
+    width: 428px;
+    /* height: 350px; */
+    border-radius: 100%;
+}
+.blok-denis {
+	position: relative;
+    align-self: flex-start;
+}
+
+.line-denis {
+	position: absolute;
+    top: 50%;
+    /* left: 275px; */
+    width: 96px;
+    transform: translate(-50%, -50%);
+}
+.line-katia {
+	position: absolute;
+    top: 27%;
+    left: 331px;
+    width: 96px;
+    transform: translate(50%, 50%);
+}
+

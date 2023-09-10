@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="Fonts/SANTELLO.ttf">
     <link rel="stylesheet" href="Fonts/LICENSE.txt">
     <link rel="stylesheet" href="normalize.css">
+    <script src="js/accardeon.js" defer></script>
+    <script src="js/openCard.js" defer></script>
 
-
-    <title>Document</title>
+    <title>История семьи</title>
 </head>
 <body>
     <div class="container">
@@ -27,7 +28,7 @@
     
 
             <div class="video_o_nas">
-                <img src="img/o-nas.jpg" alt="Превью видеоролика" class="card__o_nas">
+                <img src="img/o-nas.jpg" width="850px" alt="Превью видеоролика" class="card__o_nas">
                 <a href="https://www.youtube.com/watch?v=4m5jW_6i2J4"><img src="img/play.svg" class="button__play"></a>
             </div>
 
@@ -148,157 +149,105 @@
                     семьи.</b></h5>
                     <button class="button-info-book-wite">Подробнее</button>
             </div>
-            <div class="super_proect">
-                <h3>Почему нам доверяют?</h3>
+            <h3 class="super_proect-title">Почему нам доверяют?</h3>
 
-                <ul class="feature-list">
-                    <li class="feature__item">
-                        <button type="button" class="feature__link feature__link_active">
-                            <div class="feature-item-wrap">
-                                <span class="feature-item__title">
-                                    Одностраничные сайты
-                                </span>
-                            </div>
-                        </button>
-                        <!-- /.feature__link -->
-                        <ul class="feature-sub">
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Правки по вашему сайту
-                                </span>
-                                <span class="feature-sub__value">
-                                    800р/час
-                                </span>
-                            </li>
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Разработка сайта с нуля
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 15000 рублей
-                                </span>
-                            </li>
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Разработка новых страниц</span>
-                                <span class="feature-sub__value">
-                                    от 5000 рублей
-                                </span>
-                            </li>
-                        </ul>
-                        <!-- /.feature-list-sub -->
-                    </li>
-                    <li class="feature__item">
-                        <button type="button" class="feature__link">
-                            <div class="feature-item-wrap">
-                                <span class="feature-item__title">
-                                    Многостраничные сайты
-                                </span>
-                            </div>
-                        </button>
-                        <ul class="feature-sub hidden">
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Сайт под ключ
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 30000 рублей
-                                </span>
-                            </li>
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Посадка готовой верстки на Wordpress
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 50000 рублей
-                                </span>
-                            </li>
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Доработка дизайна страниц
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 4000 рублей
-                                </span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="feature__item">
-                        <button type="button" class="feature__link">
-                            <div class="feature-item-wrap">
-                                <span class="feature-item__title">
-                                    Приложения
-                                </span>
-                            </div>
-                        </button>
-                        <ul class="feature-sub hidden">
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Разработка для iOS
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 60000 рублей
-                                </span>
-                            </li>
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Разработка для Android
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 45000 рублей
-                                </span>
-                            </li>
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Защита приложения
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 70000 рублей
-                                </span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="feature__item">
-                        <button type="button" class="feature__link">
-                            <div class="feature-item-wrap">
-                                <span class="feature-item__title">
-                                    Интеграции сторонних сервисов
-                                </span>
-                            </div>
-                        </button>
-                        <ul class="feature-sub hidden">
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Подключение метрики
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 1000 рублей
-                                </span>
-                            </li>
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Подключение textolite
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 1000 рублей
-                                </span>
-                            </li>
-                            <li class="feature-sub__item">
-                                <span class="feature-sub__name">
-                                    Подключение чат-бота
-                                </span>
-                                <span class="feature-sub__value">
-                                    от 3000 рублей
-                                </span>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+
+
+        
+
+            <div class="container-all">
+                <div class="biografy_discription-2">
+                    <div class="container-accor">
+                                        <div class="box">
+                                          <div class="label" style="content: url(img/vector/emoji.svg)">Идея проекта</div>
+                                          <div class="content" style="display: block" id="1">
+                                            <p>
+                                            Мы создали комплекс услуг, с помощью которых можно сохранить семейные архивы и ценные воспоминания. Всю техническую работу мы берём на себя, оставляя Вам только положительные эмоции и готовый результат.
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div class="box">
+                                          <div class="label">Наша команда</div>
+                                          <div class="content" id="2">
+                                            <p>
+                                                С нами сотрудничают профессиональные ведущие с опытом работы на телевидение, редактор текстов с филологическим образованием, создатели фотокниг и монтажёры. Что очень важно - людей, работающих в нашем проекте объединяет поддержка семейных ценностей.
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div class="box">
+                                          <div class="label">Наши ценности</div>
+                                          <div class="content" id="3">
+                                            <p>
+                                                Мы бережём семейные традиции и считаем, что в них заключается огромная сила для каждого человека. Поэтому наши услуги направлены на поддержку связи поколений и сохранения семейной памяти.
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div class="box">
+                                          <div class="label">Наши клиенты</div>
+                                          <div class="content" id="4">
+                                            <p>
+                                                Услугами проекта "История семьи" пользуются абсолютно разные люди. Судьба каждого человека уникальна. С нами записали семейную историю художники, актрисы, учителя, а так же самые обыкновнные бабушки. Самой старшей нашей героине - 93 года.
+                                                В числе наших клиентов - семья актёра Андрея Мерзликина.
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div class="box">
+                                          <div class="label">Преимущество</div>
+                                          <div class="content" id="5">
+                                            <p>
+                                                Мы сохраняем индивидуальный подход к каждому клиенту! Ваши близкие будут чувствовать себя комфортно в беседе с ведущим, потому что мы можем создать непринужденную тёплую атмосферу. А для семейных фильмов пишутся индивидуальные сценарии!
+                                
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div class="box">
+                                          <div class="label">Кому подарить биографию?</div>
+                                          <div class="content" id="6">
+                                            <p>
+                                                Записанная биография близких может стать прекрасным подарком на любое торжество Вашим родственикам, на свадьбу молодожёнам. А так же Вы можете начать вести семейную историю в связи с рождением ребёнка, чтобы передать ему в будущем знания о роде.
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                </div>
+
+                <div class="accardeon-block">
+                    <img src="img/DSC_0657.jpg" alt="Превью видеоролика" class="accardeon-img">
+                </div>
+        </div>
+
+        <section class="about"> 
+            <h3>О нас</h3>
+            <p>Мы давно мечтали об общем проекте, который
+                объединит наши профессиональные навыки и
+                вдохновит на новые идеи!</p>
+
+            <div class="about-crug">
+
+                <div class="blok-denis">
+                    <img src="img/denis.jpg" alt="" class="denis-img">
+                    <img src="img/vector/plus.svg" class="line-denis">
+                </div>
+
+                <!-- <div class="biografy_video-1">
+                    <img src="img/denis.jpg" alt="Превью видеоролика" class="card__o_nas-2">
+                    <img src="img/vector/plus.svg" class="button__play-2">
+                </div> -->
+                <!-- <div class="biografy_video-1">
+                    <img src="img/katia.jpg" alt="Превью видеоролика" class="card__o_nas-2">
+                    <img src="img/vector/plus.svg" class="button__play-2">
+                </div> -->
+                
+                <div class="blok-denis">
+                    <img src="img/katia.jpg" alt="" class="katia-img">
+                <img src="img/vector/plus.svg" class="line-k">
+                </div>
             </div>
+        </section>
+
+
+
     </div>
-
-
-
 
 
 
@@ -308,7 +257,6 @@
 <!-- <span>Изображение от <a href="https://ru.freepik.com/">Freepik</a></span> -->
 <!-- <a href="https://www.flaticon.com/ru/free-icons/-" title="изогнутая стрелка иконки">Изогнутая стрелка иконки от Nuion - Flaticon</a> -->
 <!-- <a target="_blank" href="https://icons8.com/icon/Gvq4CL3hxDVR/открытая-книга">Открытая Книга</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
-<script src="script.js"></script>
 
 </body>
 </html>
