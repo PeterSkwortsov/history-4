@@ -69,17 +69,27 @@ denisImg.forEach((event) => {
 
 // всплытие вопроса 
 
-const btnQ = document.querySelector('.btn-question');
-const opisanie = document.querySelector('.opisanie');
+const btnQ = document.querySelectorAll('.btn-question');
+const opisanie = document.querySelectorAll('.opisanie');
 
-btnQ.addEventListener('click', function () {
-    opisanie.classList.toggle('hidden')
-    btnQ.classList.add('hidden')
+btnQ.forEach((event) => {
+    event.addEventListener('click', function () {
+        let res = event.nextElementSibling // вышли на opisanie
+        res.classList.toggle('hidden');
+        let btn = res.previousElementSibling; // вышли на btn-question
+        btn.classList.add('hidden')
+    })
 })
 
-opisanie.addEventListener('click', function () {
-    if (btnQ.classList  = 'hidden') {
-        opisanie.classList.add('hidden')
-        btnQ.classList.remove('hidden')
-    }
+opisanie.forEach((event) => {
+    event.addEventListener('click', function () {
+        let opisanie = event // получил opisanie
+        let btn = event.previousElementSibling // вышли на btnQ
+
+        if (btn.classList  = 'hidden') {
+            opisanie.classList.add('hidden')
+            btn.classList.remove('hidden')
+        }
+    })
 })
+

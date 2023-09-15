@@ -156,6 +156,11 @@ body {
 	cursor: pointer;
 }
 
+.que {
+	margin-top: -11px;
+	margin-bottom: 11px;
+}
+
   .opisanie {
 	display: flex;
 	justify-content: center;
@@ -662,7 +667,6 @@ body {
 }
 
 .about {
-	height: 100%;
 	margin: 0 auto;
 	padding: 40px 40px 0 40px;
 	h3 {
@@ -854,3 +858,250 @@ body {
     display: block;
 }
 
+
+
+
+
+//отзывы
+
+.expert {
+    margin: 0 auto;
+	height: auto;
+	background-color: #fff;
+	padding-left: 150px;
+	padding-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+
+
+.main-block-expert {
+    display: flex;
+    justify-content: space-around;
+    // border-bottom: solid 1px #D0D0D0;
+    margin-bottom: 25px;
+	padding-top: 55px;
+    
+    
+}
+
+.name-expert {
+	h3 {
+		font-family: 'SANTELLO', sans-serif;
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		align-items: center;
+		color: $blue-bold;
+		padding-top: 30px;
+		padding-bottom: 80px;
+	}
+}
+
+.person {
+	align-items: center;
+	max-width: 300px;
+
+		h4 {
+			margin: 0;
+		}
+
+		p {
+
+			font-family: 'Didact',sans-serif;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 20px;
+			line-height: 20px;
+			color: #342B2B;
+		}
+
+		span {
+			font-size: 16px;
+				text-align: start;
+				font-weight: 10px;
+				color: $blue-light;
+				margin-top: 1px;
+				padding-bottom: 10px;
+		}
+	}
+
+.podcerk {
+    width: 100px;
+    height: 4px;
+    margin-left: 0;
+    margin-top: 14px;
+    background-color: $blue-light;
+
+}
+
+.conainer-person-model  {
+    margin-right: 0;
+    width: 235px;
+    height: 308px;
+    margin-bottom: 135px;
+
+
+}
+
+.person-model-foto {
+	width: 125px;
+    height: 125px;
+    background-color: #EEF1F2;
+    position: relative;
+    border-radius: 50%;
+    padding-bottom: -31px;
+    margin-top: 1px;
+
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+	 7px 7px 20px 0px rgba(0,0,0,.1),
+	 4px 4px 5px 0px rgba(0,0,0,.1);
+	outline: none;
+}
+
+.person-model-foto img {
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.person-model-name {
+    width: 177px;
+    height: 24px;
+    margin-top: 5px;
+    background: #EEF1F2;
+    border-radius: 9px;
+
+	background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+
+
+}
+.person-model-text {
+    width: 100px;
+    height: 4px;
+    margin-left: 0;
+    margin-top: 9px;
+    background-color: #EEF1F2;
+
+	
+}
+
+.person-model-text2 {
+    width: 235px;
+    height: 145px;
+    margin-left: 0;
+    margin-top: 12px;
+    background: #EEF1F2;
+    border-radius: 4px;
+
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+	 7px 7px 20px 0px rgba(0,0,0,.1),
+	 4px 4px 5px 0px rgba(0,0,0,.1);
+	outline: none;
+}
+
+.person-model-text3 {
+    width: 74px;
+    height: 20px;
+    margin-left: 0;
+    margin-top: 4px;
+    background: #EEF1F2;
+    border-radius: 4px;
+
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+	 7px 7px 20px 0px rgba(0,0,0,.1),
+	 4px 4px 5px 0px rgba(0,0,0,.1);
+	outline: none;
+}
+
+
+.intel-foto {
+    width: 1069px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -30px;
+
+}
+
+
+// стилизация отзыва
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-16 {
+  border: none;
+  color: #000;
+  z-index: 1;
+}
+.btn-16:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-16:hover {
+  color: #000;
+}
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.btn-16:active {
+  top: 2px;
+}
