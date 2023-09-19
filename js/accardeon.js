@@ -5,7 +5,6 @@ label.forEach((event) => {
     event.addEventListener('click', function(el) {        
         let panel = event.nextElementSibling;
         let tag = el.target;
-        console.log(tag)
         
         if (panel.style.display === "block") { 
             panel.style.display = "none"

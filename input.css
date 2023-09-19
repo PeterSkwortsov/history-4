@@ -157,6 +157,22 @@ h5 {
   margin-top: 5px;
   font-size: 20px;
   margin-bottom: 5px;
+  align-items: center;
+}
+.opisanie a {
+  color: blue;
+  text-decoration: none;
+  background-color: #dbd7d7;
+  padding: 10px 10px 10px 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  content: url(./img/vector/klic.svg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.opisanie a:hover {
+  background-color: #dbd7d797;
+  color: white;
 }
 
 .blok_foto {

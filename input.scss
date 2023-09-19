@@ -3,6 +3,7 @@ $blue-light: #4F6EBB;
 $blue-bold: #231E8D;
 $black: #2e2c2c;
 
+
 body {
 	font-family: 'Didact', sans-serif;
 	font-weight: 300;
@@ -34,6 +35,10 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	font-display: auto;
+
+*a {
+	text-decoration: none;
+}	
   }
   .container {
 	margin: 0 auto;
@@ -167,6 +172,26 @@ body {
 	margin-top: 5px;
 	font-size: 20px;
 	margin-bottom: 5px;
+	align-items: center;
+
+	a {
+	
+			color: blue;
+			text-decoration: none;
+			background-color: #dbd7d7;
+			padding: 10px 10px 10px 10px;
+			margin-left: 10px;
+			border-radius: 10px;
+			content: url(./img/vector/klic.svg);
+			background-position-x: center;
+			background-repeat: no-repeat;
+			
+	}
+
+	a:hover {
+		background-color: #dbd7d797;
+		color: white;
+	}
   }
   
   .blok_foto {
