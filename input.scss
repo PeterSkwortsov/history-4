@@ -36,9 +36,9 @@ body {
 	font-style: normal;
 	font-display: auto;
 
-*a {
-	text-decoration: none;
-}	
+// *a {
+// 	text-decoration: none;
+// }	
   }
   .container {
 	margin: 0 auto;
@@ -1129,4 +1129,53 @@ body {
 }
 .btn-16:active {
   top: 2px;
+}
+
+// стрелка поднятия наверх
+.scroll-up {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	z-index: 1000;
+	width: 50px;
+	height: 50px;
+	color: #dcdcdc;
+	cursor: pointer;
+	visibility: hidden;
+	border-radius: 50px;
+	box-shadow: inset 0 0 0 4px #dcdcdc;
+
+	opacity: 0;
+	transition: .2s;
+	transform: translate(25px);
+}
+
+.scroll-up::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	content: '↑';
+}
+.scroll-up:hover {
+	color: orange;
+}
+
+.scroll-up--active {
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.scroll-up__svg-path {
+	box-sizing: border-box;
+	fill: none;
+	stroke: orange;
+	stroke-width: 4px;
+	transition: .2s;
 }
