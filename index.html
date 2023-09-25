@@ -17,366 +17,387 @@
     <script src="js/openCard.js" defer></script>
     <script src="js/gipArrow.js" defer></script>
 
+    <!-- подключение бургер меню-->
+   
+
     <title>История семьи</title>
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <h1><span>проект</span><br>История Семьи</h1>
-            <h2>Сохраним биографию вашей семьи для потомков</h2>
-            <img src="./img/ilustration-transformed.png" alt="Илюстрация семьи" class="ilustration">
-            <button class="button-info">Подробнее</button>
-        </header>
-
-
-        <div class="video_o_nas">
-            <img src="img/o-nas.jpg" width="900px" alt="Превью видеоролика" class="card__o_nas">
-            <a href="https://www.youtube.com/watch?v=4m5jW_6i2J4"><img src="img/play.svg" class="button__play"></a>
+        <div class="menu">
+            <a href="#" class="menu-btn">
+                
+              </a>
+            <nav class="menu-list">
+                <a href="#">О проекте</a>
+                <a href="#">Видеобиография</a>
+                <a href="#">Биография в книге</a>
+                <a href="#">О нас</a>
+                <a href="#">Книга</a>
+            </nav>
         </div>
+        <div class="content-menu">
 
-        <div class="question">
-            <img src="img/vector/questionl.svg" alt="" class="btn-question">
-            <span class="opisanie hidden" id="opisanie">
-                В этом видео мы рассказываем об идеи проекта, команде и процессе работы
-            </span>
-        </div>
-
-
-        <div class="project_info">
-
-
-            <img src="img/034.jpg" class="img" alt="Илюстрация книги">
-
-            <div class="pop-up hidden">
-                <div class="overlay"></div>
-                <span>&times;</span>
-                <img src="img/034.jpg" class="width1" alt="">
+            <header>
+                <h1><span>проект</span><br>История Семьи</h1>
+                <h2>Сохраним биографию вашей семьи для потомков</h2>
+                <img src="./img/ilustration-transformed.png" alt="Илюстрация семьи" class="ilustration">
+                <button class="button-info">Подробнее</button>
+            </header>
+    
+    
+            <div class="video_o_nas">
+                <img src="img/o-nas.jpg" width="900px" alt="Превью видеоролика" class="card__o_nas">
+                <a href="https://www.youtube.com/watch?v=4m5jW_6i2J4"><img src="img/play.svg" class="button__play"></a>
             </div>
-
-
-
-            <div class="project_info_blok">
-                <h2>В чем суть проекта?</h2>
-                <br>
-                <span>Наша миссия состоит в том, чтобы давать новую жизнь семейным архивам.<br> Мы берем на себя заботы,
-                    связанные с сохранением воспоминаний Ваших близких.</span>
-                <hr>
-                <h3>Наши услуги:</h3>
-                <ul>
-                    <li>Запись семейной биографии с Вашими близкими</li>
-                    <li>Видеосъемка и монтаж</li>
-                    <li>Создание фотокниг с историей Вашей семьи</li>
-                    <li>Сканирование и ретушь старых фотографий</li>
-                    <li>Монтаж старых видеоархивов</li>
-                    <li>Консультация куратора гениалогических поисков</li>
-                </ul>
+    
+            <div class="question">
+                <img src="img/vector/questionl.svg" alt="" class="btn-question">
+                <span class="opisanie hidden" id="opisanie">
+                    В этом видео мы рассказываем об идеи проекта, команде и процессе работы
+                </span>
             </div>
-        </div>
-
-        <div class="choise_biografy">
-            <h2>Варианты биографии</h2>
-            <span>У нас есть 3 основных формата сохранения семейной истории.</span>
-
-            <div class="biografy_book-2">
-                <div class="biografy_discription-1">
-                    <a href="biography/biography.html"><h3>Биография в книге<div class="arrow"></div></h3></a>
-                    <b>Сохранение вашей семейной истории в
-                        красивой книге с текстом и фотографиями.
-                    </b>
-                    <hr>
-                    <ul>
-                        <li>Проведение интервью</li>
-                        <li>Сканирование и подпись фотографий, документов,
-                            фотосъемка наград</li>
-                        <li>Обработка и ретушь всех оцифрованных снимков</li>
-                        <li>Перевод аудио в текст и его редактура</li>
-                        <li>Разработка индивидуального дизайна страниц</li>
-                        <li>Вёрстка и печать книги</li>
-                    </ul>
-
-                </div>
-
-                <div class="biografy_video-1">
-                    <img src="img/024.jpg" alt="Превью видеоролика" class="card__o_nas-2">
-                    <a href="https://www.youtube.com/embed/RmT7zs5G2z8?si=5fNUlZDgr4ETG3bO&amp"><img src="img/play.svg"
-                            class="button__play-2"></a>
-                </div>
-
-            </div>
-
-            <div class="biografy_book-1">
-                <div class="biografy_discription-2">
-
-                    <a href="./film/film.html"><h3>Видеобиография<div class="arrow"></div></h3></a>
-                    <b>Видеоролик с интервью близкого человека, дополненное материалами из семейного архива, музыкой и
-                        слайдами с датами.
-                    </b>
-                    <hr>
-                    <ul>
-                        <li>Проведение интервью</li>
-                        <li>Видеосъёмка с двух камер</li>
-                        <li>Сканирование и обработка архивных
-                            фотографий</li>
-                        <li>Монтаж видеоролика длиной от 15 до 25
-                            минут</li>
-                        <li>Исходник с полным интервью и
-                            оцифрованные фото в электронном виде</li>
-                        <li>Именная флешка в подарочной упаковке</li>
-                    </ul><br>
-
-                </div>
-
-                <div class="biografy_video-1">
-                    <img src="img/video.jpg" alt="Превью видеоролика" class="card__o_nas-2">
-                    <a href="https://www.youtube.com/watch?v=KJ1QdEwapIM"><img src="img/play.svg"
-                            class="button__play-2"></a>
-                </div>
-            </div>
-        </div>
-
-        <section class="first">
-            <h1 class="first__title">Фильм
-                "История семьи"</h1>
-            <video src="img/videoplayback.mp4" playsinline muted autoplay loop class="first__video"></video>
-        </section>
-
-        <div class="film">
-            <span>Семейный фильм содержит в себе
-                видеобиографию близких, а так же фрагменты
-                видео из жизни вашей семьи,снятые без
-                постановки. Вы можете пить чай, общаться,
-                гулять или заниматься любимым общим делом.
-                Эти кадры войдут в семейный фильм,
-                записанный на подарочную деревянную
-                флешку.</span>
-
-            <h5><b>Главная идея фильма - объединить поколения одной
-                    семьи.</b></h5>
-            <button class="button-info-book-wite">Подробнее</button>
-        </div>
-        <h3 class="super_proect-title">Почему нам доверяют?</h3>
-
-
-
-
-
-        <div class="container-all">
-            <div class="biografy_discription-2">
-                <div class="container-accor">
-                    <div class="box">
-                        <div class="label" style="content: url(img/vector/emoji.svg)">Идея проекта</div>
-                        <div class="content" style="display: block" id="1">
-                            <p>
-                                Мы создали комплекс услуг, с помощью которых можно сохранить семейные архивы и ценные
-                                воспоминания. Всю техническую работу мы берём на себя, оставляя Вам только положительные
-                                эмоции и готовый результат.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="label">Наша команда</div>
-                        <div class="content" id="2">
-                            <p>
-                                С нами сотрудничают профессиональные ведущие с опытом работы на телевидение, редактор
-                                текстов с филологическим образованием, создатели фотокниг и монтажёры. Что очень важно -
-                                людей, работающих в нашем проекте объединяет поддержка семейных ценностей.</p>
-                                <ul>
-                                <li>Фотограф</li>
-                                <li>Видеограф</li>
-                                <li>Верстальщик</li>
-                                <li>Филолог</li>
-                                <li>Дизайнер</li>
-                                <li>Корректор</li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="label">Наши ценности</div>
-                        <div class="content" id="3">
-                            <p>
-                                Мы бережём семейные традиции и считаем, что в них заключается огромная сила для каждого
-                                человека. Поэтому наши услуги направлены на поддержку связи поколений и сохранения
-                                семейной памяти.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="label">Наши клиенты</div>
-                        <div class="content" id="4">
-                            <p>
-                                Услугами проекта "История семьи" пользуются абсолютно разные люди. Судьба каждого
-                                человека уникальна. С нами записали семейную историю художники, актрисы, учителя, а так
-                                же самые обыкновнные бабушки. Самой старшей нашей героине - 93 года.
-                                В числе наших клиентов - семья актёра Андрея Мерзликина.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="label">Преимущество</div>
-                        <div class="content" id="5">
-                            <p>
-                                Мы сохраняем индивидуальный подход к каждому клиенту! Ваши близкие будут чувствовать
-                                себя комфортно в беседе с ведущим, потому что мы можем создать непринужденную тёплую
-                                атмосферу. А для семейных фильмов пишутся индивидуальные сценарии!
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="label">Кому подарить биографию?</div>
-                        <div class="content" id="6">
-                            <p>
-                                Записанная биография близких может стать прекрасным подарком на любое торжество Вашим
-                                родственикам, на свадьбу молодожёнам. А так же Вы можете начать вести семейную историю в
-                                связи с рождением ребёнка, чтобы передать ему в будущем знания о роде.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accardeon-block">
-
-                    <img src="img/DSC_0657.jpg" width="400px" class="img" alt="Илюстрация книги">
-
+    
+    
+            <div class="project_info">
+    
+    
+                <img src="img/034.jpg" class="img" alt="Илюстрация книги">
+    
                 <div class="pop-up hidden">
                     <div class="overlay"></div>
                     <span>&times;</span>
-                    <!-- <img src="img/DSC_0657.jpg" class="width2" idth="400px" height="620px" alt=""> -->
-
+                    <img src="img/034.jpg" class="width1" alt="">
+                </div>
+    
+    
+    
+                <div class="project_info_blok">
+                    <h2>В чем суть проекта?</h2>
+                    <br>
+                    <span>Наша миссия состоит в том, чтобы давать новую жизнь семейным архивам.<br> Мы берем на себя заботы,
+                        связанные с сохранением воспоминаний Ваших близких.</span>
+                    <hr>
+                    <h3>Наши услуги:</h3>
+                    <ul>
+                        <li>Запись семейной биографии с Вашими близкими</li>
+                        <li>Видеосъемка и монтаж</li>
+                        <li>Создание фотокниг с историей Вашей семьи</li>
+                        <li>Сканирование и ретушь старых фотографий</li>
+                        <li>Монтаж старых видеоархивов</li>
+                        <li>Консультация куратора гениалогических поисков</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-
-        <section class="about"> 
-            <h3>О нас</h3>
-            <p>Мы давно мечтали об общем проекте, который
-                объединит наши профессиональные навыки и
-                вдохновит на новые идеи!</p>
     
-            <div class="about-crug">
+            <div class="choise_biografy">
+                <h2>Варианты биографии</h2>
+                <span>У нас есть 3 основных формата сохранения семейной истории.</span>
     
-                <div class="blok-denis">
-                    <img src="./img/denis.jpg" alt="#" class="denis-img">
-                    <div class="overlay-person">
-                        <div class="text-1">Денис Дворянинов
-                            <span>ведущий, педагог</span>
-                        </div>
-                      </div>        
-                
-                    <div class="denis-text hidden">
-                        Проект "История семьи" - моя личная авторская идея, которая воплощает в себе очень давнее желание - запись бесед со старшим поколением. Когда-то я любил разговаривать о жизни со своим дедом, слушать его было очень интересно! Но, к сожалению, я не догадался тогда ничего записывать.<br><br>
-                        <b>Сегодня я понимаю, как важно знать и помнить свою семейную историю, и в своём деле стараюсь создать такие форматы сохранения биографии, которые интересно было бы пересматривать новому поколению.</b>
+                <div class="biografy_book-2">
+                    <div class="biografy_discription-1">
+                        <a href="biography/biography.html"><h3>Биография в книге<div class="arrow"></div></h3></a>
+                        <b>Сохранение вашей семейной истории в
+                            красивой книге с текстом и фотографиями.
+                        </b>
+                        <hr>
+                        <ul>
+                            <li>Проведение интервью</li>
+                            <li>Сканирование и подпись фотографий, документов,
+                                фотосъемка наград</li>
+                            <li>Обработка и ретушь всех оцифрованных снимков</li>
+                            <li>Перевод аудио в текст и его редактура</li>
+                            <li>Разработка индивидуального дизайна страниц</li>
+                            <li>Вёрстка и печать книги</li>
+                        </ul>
+    
                     </div>
-                    
+    
+                    <div class="biografy_video-1">
+                        <img src="img/024.jpg" alt="Превью видеоролика" class="card__o_nas-2">
+                        <a href="https://www.youtube.com/embed/RmT7zs5G2z8?si=5fNUlZDgr4ETG3bO&amp"><img src="img/play.svg"
+                                class="button__play-2"></a>
+                    </div>
+    
                 </div>
-                
-                <div class="blok-denis">
-                    <img src="./img/katia.jpg" alt="#" class="denis-img">
-                    <div class="overlay-person">
-                        <div class="text-1">Екатерина Дворянинова
-                            <span>фотограф, видеограф</span>
+    
+                <div class="biografy_book-1">
+                    <div class="biografy_discription-2">
+    
+                        <a href="./film/film.html"><h3>Видеобиография<div class="arrow"></div></h3></a>
+                        <b>Видеоролик с интервью близкого человека, дополненное материалами из семейного архива, музыкой и
+                            слайдами с датами.
+                        </b>
+                        <hr>
+                        <ul>
+                            <li>Проведение интервью</li>
+                            <li>Видеосъёмка с двух камер</li>
+                            <li>Сканирование и обработка архивных
+                                фотографий</li>
+                            <li>Монтаж видеоролика длиной от 15 до 25
+                                минут</li>
+                            <li>Исходник с полным интервью и
+                                оцифрованные фото в электронном виде</li>
+                            <li>Именная флешка в подарочной упаковке</li>
+                        </ul><br>
+    
+                    </div>
+    
+                    <div class="biografy_video-1">
+                        <img src="img/video.jpg" alt="Превью видеоролика" class="card__o_nas-2">
+                        <a href="https://www.youtube.com/watch?v=KJ1QdEwapIM"><img src="img/play.svg"
+                                class="button__play-2"></a>
+                    </div>
+                </div>
+            </div>
+    
+            <section class="first">
+                <h1 class="first__title">Фильм
+                    "История семьи"</h1>
+                <video src="img/videoplayback.mp4" playsinline muted autoplay loop class="first__video"></video>
+            </section>
+    
+            <div class="film">
+                <span>Семейный фильм содержит в себе
+                    видеобиографию близких, а так же фрагменты
+                    видео из жизни вашей семьи,снятые без
+                    постановки. Вы можете пить чай, общаться,
+                    гулять или заниматься любимым общим делом.
+                    Эти кадры войдут в семейный фильм,
+                    записанный на подарочную деревянную
+                    флешку.</span>
+    
+                <h5><b>Главная идея фильма - объединить поколения одной
+                        семьи.</b></h5>
+                <button class="button-info-book-wite">Подробнее</button>
+            </div>
+            <h3 class="super_proect-title">Почему нам доверяют?</h3>
+    
+    
+    
+    
+    
+            <div class="container-all">
+                <div class="biografy_discription-2">
+                    <div class="container-accor">
+                        <div class="box">
+                            <div class="label" style="content: url(img/vector/emoji.svg)">Идея проекта</div>
+                            <div class="content" style="display: block" id="1">
+                                <p>
+                                    Мы создали комплекс услуг, с помощью которых можно сохранить семейные архивы и ценные
+                                    воспоминания. Всю техническую работу мы берём на себя, оставляя Вам только положительные
+                                    эмоции и готовый результат.
+                                </p>
+                            </div>
                         </div>
-                      </div>        
-                
-                    <div class="denis-text hidden">
+                        <div class="box">
+                            <div class="label">Наша команда</div>
+                            <div class="content" id="2">
+                                <p>
+                                    С нами сотрудничают профессиональные ведущие с опытом работы на телевидение, редактор
+                                    текстов с филологическим образованием, создатели фотокниг и монтажёры. Что очень важно -
+                                    людей, работающих в нашем проекте объединяет поддержка семейных ценностей.</p>
+                                    <ul>
+                                    <li>Фотограф</li>
+                                    <li>Видеограф</li>
+                                    <li>Верстальщик</li>
+                                    <li>Филолог</li>
+                                    <li>Дизайнер</li>
+                                    <li>Корректор</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">Наши ценности</div>
+                            <div class="content" id="3">
+                                <p>
+                                    Мы бережём семейные традиции и считаем, что в них заключается огромная сила для каждого
+                                    человека. Поэтому наши услуги направлены на поддержку связи поколений и сохранения
+                                    семейной памяти.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">Наши клиенты</div>
+                            <div class="content" id="4">
+                                <p>
+                                    Услугами проекта "История семьи" пользуются абсолютно разные люди. Судьба каждого
+                                    человека уникальна. С нами записали семейную историю художники, актрисы, учителя, а так
+                                    же самые обыкновнные бабушки. Самой старшей нашей героине - 93 года.
+                                    В числе наших клиентов - семья актёра Андрея Мерзликина.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">Преимущество</div>
+                            <div class="content" id="5">
+                                <p>
+                                    Мы сохраняем индивидуальный подход к каждому клиенту! Ваши близкие будут чувствовать
+                                    себя комфортно в беседе с ведущим, потому что мы можем создать непринужденную тёплую
+                                    атмосферу. А для семейных фильмов пишутся индивидуальные сценарии!
+    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">Кому подарить биографию?</div>
+                            <div class="content" id="6">
+                                <p>
+                                    Записанная биография близких может стать прекрасным подарком на любое торжество Вашим
+                                    родственикам, на свадьбу молодожёнам. А так же Вы можете начать вести семейную историю в
+                                    связи с рождением ребёнка, чтобы передать ему в будущем знания о роде.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="accardeon-block">
+    
+                        <img src="img/DSC_0657.jpg" width="400px" class="img" alt="Илюстрация книги">
+    
+                    <div class="pop-up hidden">
+                        <div class="overlay"></div>
+                        <span>&times;</span>
+                        <!-- <img src="img/DSC_0657.jpg" class="width2" idth="400px" height="620px" alt=""> -->
+    
+                    </div>
+                </div>
+            </div>
+    
+            <section class="about"> 
+                <h3>О нас</h3>
+                <p>Мы давно мечтали об общем проекте, который
+                    объединит наши профессиональные навыки и
+                    вдохновит на новые идеи!</p>
+        
+                <div class="about-crug">
+        
+                    <div class="blok-denis">
+                        <img src="./img/denis.jpg" alt="#" class="denis-img">
+                        <div class="overlay-person">
+                            <div class="text-1">Денис Дворянинов
+                                <span>ведущий, педагог</span>
+                            </div>
+                          </div>        
+                    
+                        <div class="denis-text hidden">
+                            Проект "История семьи" - моя личная авторская идея, которая воплощает в себе очень давнее желание - запись бесед со старшим поколением. Когда-то я любил разговаривать о жизни со своим дедом, слушать его было очень интересно! Но, к сожалению, я не догадался тогда ничего записывать.<br><br>
+                            <b>Сегодня я понимаю, как важно знать и помнить свою семейную историю, и в своём деле стараюсь создать такие форматы сохранения биографии, которые интересно было бы пересматривать новому поколению.</b>
+                        </div>
                         
-                        Раньше в моём объективе чаще были дети и молодожёны, а теперь бабушки и дедушки. Для меня важно сохранить кадры настоящих моментов, которые семья потом будет пересматривать и погружаться в ценные воспоминания.<br><br>
-                        Я хочу, чтобы фильм или книга о семье и предках были в каждом доме. Потому что твоя история - это ты сам.<b>Теряя свои корни, ты теряешь часть себя.</b>
-                        Сегодня мы имеем все возможности для того, чтобы сохранить свою семейную память в самых разнообразных интересных вариантах, и передать её новому поколению.
                     </div>
                     
+                    <div class="blok-denis">
+                        <img src="./img/katia.jpg" alt="#" class="denis-img">
+                        <div class="overlay-person">
+                            <div class="text-1">Екатерина Дворянинова
+                                <span>фотограф, видеограф</span>
+                            </div>
+                          </div>        
+                    
+                        <div class="denis-text hidden">
+                            
+                            Раньше в моём объективе чаще были дети и молодожёны, а теперь бабушки и дедушки. Для меня важно сохранить кадры настоящих моментов, которые семья потом будет пересматривать и погружаться в ценные воспоминания.<br><br>
+                            Я хочу, чтобы фильм или книга о семье и предках были в каждом доме. Потому что твоя история - это ты сам.<b>Теряя свои корни, ты теряешь часть себя.</b>
+                            Сегодня мы имеем все возможности для того, чтобы сохранить свою семейную память в самых разнообразных интересных вариантах, и передать её новому поколению.
+                        </div>
+                        
+                    </div>
                 </div>
+            </section>
+            <section class="expert">    
+                    <div class="main-block-expert">
+    
+                        <div class="person">
+                            <img src="img/vector/otz1.png" alt="">
+                                <div class="name-person-teacher">
+                                    <h4>Андрей Мерзликин</h4>
+                                    <span>Актёр, режиссёр</span>
+                                        <div class="podcerk"></div>
+        
+                                        <p>Катя, я посмотрел. Такой восторг!<br> Снято очень
+                                            хорошо! Круто!<br>Все красивые, естественные.<br><br> Я так
+                                            счастлив! Это мои родители! Я в глубоком
+                                            уважении к вашему труду!</p>
+                                </div>
+    
+                        </div>
+        
+                        <div class="person">
+                            <img src="img/vector/otz2.png" alt="">
+                                <div class="name-person-teacher">
+                                    <h4>Наталья Губина</h4>
+                                    <span>Куратор генеалогических поисков</span>
+                                        <div class="podcerk"></div>
+        
+                                        <p>Как же ценны такие моменты и насколько отличается
+                                            профессиональная съёмка и обработка!<br><br>
+                                            У меня собрано много материала о предках, но до
+                                            сих пор не подведён промежуточный
+                                            итог, чтобы это можно было передавать дальше.<br>
+                                            А теперь у меня есть это видео! И я очень
+                                            надеюсь, что наши дети продолжат мои поиски и
+                                            будут знать свои корни.</p>
+                                </div>
+    
+                        </div>
+        
+                        <div class="person">
+                            <img src="img/vector/otz3.png" alt="">
+                                <div class="name-person-teacher">
+                                    <h4>Леонид Колосов</h4>
+                                    <span>Художник</span>
+                                        <div class="podcerk"></div>
+        
+                                        <p>Мне часто приходится давать интервью для СМИ,
+                                            блогеров. Поэтому я могу сравнить и отметить
+                                            слаженную работу команды "Истории семьи",
+                                            подготовленность, умение создать
+                                            непринуждённую обстановку.<br> Съемки мне очень
+                                            понравились! Рекомендую!</p>
+                                </div>
+    
+                        </div>
+        
+                        <div class="conainer-person-model">
+        
+        
+                                <div class="person-model-foto btn-16">
+                                </div>
+        
+                                    <div class="person-model-name btn-16"></div>
+                                    <div class="person-model-text3 btn-16"></div>
+                                        <div class="person-model-text btn-16"></div>
+                                            <div class="person-model-text2 btn-16"></div>
+        
+                        </div>
+                    </div>
+                    <div class="question">
+                        <img src="img/vector/questionl.svg" alt="" class="btn-question que">
+                        <span class="opisanie hidden" id="opisanie">
+                            Присоединяйтесь к отзывам наших счастливых клиентов!<br>
+                            Оставить свой отзыв по ссылке <a href="https://vk.com/istoriya.semyi"></a></span>
+                    </div>
+            </section>
+    
+            <div class="scroll-up">
+                <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+                    <path class="scroll-up__svg-path"
+                        d="
+                            M24, 0
+                            a24,24 0 0,1 0,48
+                            a24,24 0 0,1 0,-48
+                        "
+                    />
+                </svg>
             </div>
-        </section>
-        <section class="expert">    
-                <div class="main-block-expert">
-
-                    <div class="person">
-                        <img src="img/vector/otz1.png" alt="">
-                            <div class="name-person-teacher">
-                                <h4>Андрей Мерзликин</h4>
-                                <span>Актёр, режиссёр</span>
-                                    <div class="podcerk"></div>
-    
-                                    <p>Катя, я посмотрел. Такой восторг!<br> Снято очень
-                                        хорошо! Круто!<br>Все красивые, естественные.<br><br> Я так
-                                        счастлив! Это мои родители! Я в глубоком
-                                        уважении к вашему труду!</p>
-                            </div>
-
-                    </div>
-    
-                    <div class="person">
-                        <img src="img/vector/otz2.png" alt="">
-                            <div class="name-person-teacher">
-                                <h4>Наталья Губина</h4>
-                                <span>Куратор генеалогических поисков</span>
-                                    <div class="podcerk"></div>
-    
-                                    <p>Как же ценны такие моменты и насколько отличается
-                                        профессиональная съёмка и обработка!<br><br>
-                                        У меня собрано много материала о предках, но до
-                                        сих пор не подведён промежуточный
-                                        итог, чтобы это можно было передавать дальше.<br>
-                                        А теперь у меня есть это видео! И я очень
-                                        надеюсь, что наши дети продолжат мои поиски и
-                                        будут знать свои корни.</p>
-                            </div>
-
-                    </div>
-    
-                    <div class="person">
-                        <img src="img/vector/otz3.png" alt="">
-                            <div class="name-person-teacher">
-                                <h4>Леонид Колосов</h4>
-                                <span>Художник</span>
-                                    <div class="podcerk"></div>
-    
-                                    <p>Мне часто приходится давать интервью для СМИ,
-                                        блогеров. Поэтому я могу сравнить и отметить
-                                        слаженную работу команды "Истории семьи",
-                                        подготовленность, умение создать
-                                        непринуждённую обстановку.<br> Съемки мне очень
-                                        понравились! Рекомендую!</p>
-                            </div>
-
-                    </div>
-    
-                    <div class="conainer-person-model">
     
     
-                            <div class="person-model-foto btn-16">
-                            </div>
-    
-                                <div class="person-model-name btn-16"></div>
-                                <div class="person-model-text3 btn-16"></div>
-                                    <div class="person-model-text btn-16"></div>
-                                        <div class="person-model-text2 btn-16"></div>
-    
-                    </div>
-                </div>
-                <div class="question">
-                    <img src="img/vector/questionl.svg" alt="" class="btn-question que">
-                    <span class="opisanie hidden" id="opisanie">
-                        Присоединяйтесь к отзывам наших счастливых клиентов!<br>
-                        Оставить свой отзыв по ссылке <a href="https://vk.com/istoriya.semyi"></a></span>
-                </div>
-        </section>
-
-        <div class="scroll-up">
-            <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
-                <path class="scroll-up__svg-path"
-                    d="
-                        M24, 0
-                        a24,24 0 0,1 0,48
-                        a24,24 0 0,1 0,-48
-                    "
-                />
-            </svg>
         </div>
+
 
 
 

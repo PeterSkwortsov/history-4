@@ -43,8 +43,76 @@ body {
   .container {
 	margin: 0 auto;
 	height: 1230px;
+	position: relative;
   }
+
+  .menu {
+	position: fixed;
+	z-index: 99;
+	left: 0;
+	top: 0;
+	width: 30%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+
+	transition: 0.5s;
+	transform: translateX(-100%);
+  }
+.menu-active {
+	transform: translateX(0);
+
+}
   
+.menu-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 40%;
+	flex-direction: column;
+	cursor: pointer;
+
+	a {
+		text-transform: inherit;
+		font-weight: bold;
+		cursor: pointer;
+	}
+}
+
+.menu-btn {
+	display: block;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	right: -45px;
+	top: 10px;
+	z-index: 99;
+
+	content: url(./img/vector/burger-svg.svg);
+}
+
+
+
+
+
+
+
+
+.content-menu {
+	transition: 0.5s;
+	position: relative;
+	z-index: 0;
+}
+.content-menu-active {
+	transform: translateX(30%);
+} 
+
+
+
   header {
 	position: relative;
 	margin: 0 auto;
@@ -883,6 +951,9 @@ body {
     display: block;
 }
 
+.none {
+	display: none;
+}
 
 
 
@@ -1180,3 +1251,31 @@ body {
 	transition: .2s;
 }
 
+// бургер меню 
+
+.burger {
+	visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+	right: 130px;
+	position: fixed;
+	
+    z-index: 1000;
+
+    cursor: pointer;
+    /* visibility: hidden; */
+    border-radius: 50px;
+    transition: .2s;
+    transform: translate(25px);
+
+}
+
+
+
+ul {
+	list-style-type: none;
+}
+
+.none {
+	display: none;
+}

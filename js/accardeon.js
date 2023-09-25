@@ -17,3 +17,17 @@ label.forEach((event) => {
           }
         });
 })
+
+// блок бургер -меню
+
+let res = document.querySelector('.menu-btn')
+
+res.addEventListener('click', function (el) {
+  el.preventDefault();
+  let tag = el.target;
+  let res = tag.parentElement;
+  res.classList.toggle('menu-active')
+  let content = res.nextElementSibling; // content-menu
+  content.classList.toggle('content-menu-active')
+  
+})
