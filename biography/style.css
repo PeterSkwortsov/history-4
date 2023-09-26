@@ -401,6 +401,7 @@ text-align: center;
 	background-color: rgb(218, 243, 255);
 	background-color: white;
 	box-shadow: -10px 0px 25px rgba(143, 179, 195, 0.685);
+	z-index: 10;
 }
 
 .calc-price-title {
@@ -496,6 +497,16 @@ input[type=range]::-webkit-slider-runnable-track {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px; 
 	margin-bottom: 147px;
+	background-color: #fff;
+
+	font-family: 'SANTELLO', sans-serif;
+	font-size: 20px;
+	color: #231E8D;
+	width: auto;
+	height: auto;
+
+
+
 }
 
 .portfolio-item {
@@ -505,7 +516,20 @@ input[type=range]::-webkit-slider-runnable-track {
     background-position: center; 
     text-align: center; 
     align-content: center; 
+	transition: 1s;
+	border-radius: 20px;
+	
+	overflow: hidden;
+	
 }
+.portfolio-item:hover {
+	transform: scale(1.1);
+	background-size: cover;
+	overflow: hidden;
+
+}
+
+
 .portfolio-item:nth-child(1) {
     grid-column: 1/3;
 }

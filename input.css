@@ -836,8 +836,6 @@ h5 {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  -webkit-transform: scale(0);
-  transition: .3s ease;
   z-index: 3;
 }
 
@@ -1200,4 +1198,35 @@ ul {
   height: 16px;
   margin: auto 0;
   background: url(https://snipp.ru/img/сlose.png) 0 0 no-repeat;
+}
+
+.connection {
+  margin: 0 auto;
+  height: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.connection h3 {
+  font-family: 'SANTELLO', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  color: #231E8D;
+}
+.connection p {
+  padding-top: 20px;
+  width: 900px;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.vk-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
