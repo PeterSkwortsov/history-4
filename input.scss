@@ -410,7 +410,6 @@ body {
 
 .biografy_discription-1 ul li:hover {
 	color: $blue-bold;
-	cursor: pointer;
 }
 .biografy_discription-2 {
 
@@ -444,7 +443,6 @@ body {
 
 .biografy_discription-2 ul li:hover {
 	color: $blue-bold;
-	cursor: pointer;
 }
   .biografy_book-2 {
 	display: flex;
@@ -1363,3 +1361,6 @@ ul {
 	align-items: center;
 	justify-content: center;
 }
+
+// АДАПТИВ
+
