@@ -31,3 +31,22 @@ res.addEventListener('click', function (el) {
   content.classList.toggle('content-menu-active')
   
 })
+
+
+// плавный скролл
+
+const smoothLinks = document.querySelectorAll("a[href^='#']");
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute("href");
+
+        document.querySelector(id).scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    });
+};
+
+// куки 
+

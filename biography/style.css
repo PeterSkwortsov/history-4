@@ -27,6 +27,10 @@ p {
 	font-size: 16px;
 }
 
+a {
+	text-decoration-line: none;
+	text-decoration: none;
+}
 h2 {
 	font-family: 'SANTELLO', sans-serif;
 	font-size: 20px;
@@ -62,6 +66,8 @@ h2 {
     align-content: space-around;
     flex-direction: column-reverse;
 	color: #fff;
+	text-decoration-line: none;
+	text-decoration: none;
 	  }
 	  /* h1:hover{
 	   color: #4F6EBB;
@@ -549,6 +555,8 @@ input[type=range]::-webkit-slider-runnable-track {
     color: #ffffff;
     font-size: 50px;
 	font-family: 'SANTELLO', sans-serif;
+	text-decoration-line: none;
+	text-decoration: none;
 }
 .main {
     max-width: 1600px;

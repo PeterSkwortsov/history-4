@@ -24,7 +24,7 @@ overlay.addEventListener('click', () => {
 
     document.body.style.position = '';
     document.body.style.top = '';
-    
+
 
 });
 
@@ -33,8 +33,11 @@ popUpClose.forEach((event) => {
         popUp.style.display = 'none';
         document.body.style.position = '';
         document.body.style.top = '';
+
     })
 })
+
+// исправление бага закрытия картинки 
 
 
 
