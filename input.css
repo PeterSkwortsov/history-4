@@ -69,6 +69,7 @@ body {
   cursor: pointer;
   font-family: 'SANTELLO', sans-serif;
   color: #231E8D;
+  border-bottom: #000 1px solid;
 }
 .menu-list a:hover {
   color: #4F6EBB;

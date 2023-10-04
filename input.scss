@@ -73,7 +73,6 @@ body {
 	height: 50%;
 	flex-direction: column;
 	cursor: pointer;
-
 	
 
 	a {
@@ -82,12 +81,13 @@ body {
 		cursor: pointer;
 		font-family: 'SANTELLO', sans-serif;
     	color: $blue-bold;
+		border-bottom: #000 1px solid;
 	}
 	a:hover {
-		
     	color: $blue-light;
 	}
 }
+
 
 .menu-btn {
 	display: block;

@@ -71,3 +71,5 @@ for (const input of inputs) {
 		calculate();
 	});
 }
+
+
