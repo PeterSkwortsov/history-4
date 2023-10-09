@@ -40,6 +40,9 @@ body {
 // 	text-decoration: none;
 // }	
   }
+
+
+
   .container {
 	margin: 0 auto;
 	height: 1230px;
@@ -51,11 +54,11 @@ body {
 	z-index: 99;
 	left: 0;
 	top: 0;
-	width: 30%;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	// width: 30%;
+	// height: 100vh;
+	// display: flex;
+	// align-items: center;
+	// justify-content: center;
 	background-color: #fff;
 
 	transition: 0.5s;
@@ -1355,5 +1358,8 @@ ul {
 	justify-content: center;
 }
 
-// АДАПТИВ
+// @media screen and (max-width: 768px) {
+// 	body {
+// 	  background-color: black; } }
+  
 

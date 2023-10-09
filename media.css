@@ -1,0 +1,408 @@
+ /* Важно */
+ @media screen and (max-width: 320px) {
+    
+    * {
+        outline: solid 1px rgb(173, 173, 234);
+    }
+    html {
+        width: 100vh;
+    }
+    .menu {
+        
+        width: 70vh;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .ilustration {
+        position: absolute;
+    z-index: -1;
+    left: 77px;
+    }
+
+    .header span {
+        font-size: 10px;
+        width: 70%;
+        height: 70%;
+
+    }
+    .header h1 {
+        font-size: 10px;
+    }
+
+    .card__o_nas {
+        max-width: 100%;
+    height: 300px;
+    border-radius: inherit;
+    }
+
+    .video_o_nas {
+        height: 100%;
+    }
+
+    .button__play {
+        top: 165px;
+        left: 50%;
+        width: 100px;
+    }
+
+    .project_info {
+        display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: flex-start;
+    }
+
+    .img {
+        max-width: 477px;
+        left: 1px;
+        margin-left: 38px;    
+    }
+
+    .biografy_book-2 {
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    }
+    .card__o_nas-2 {
+        border-radius: unset
+    }
+
+    .biografy_book-1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin: 10px 0 30px 0;
+    }
+    .first__title {
+        font-size: 60px;
+    }
+    .button__play-2 {
+
+    }
+    .film {
+    padding-top: 40px;
+    height: 319px;
+    padding-bottom: 118px;
+    }
+    .film span {
+        display: flex;
+        max-width: 90%;
+        font-size: 23px;
+        margin: auto;    }
+    .img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .container-accor {
+        padding-left: 0;
+    }
+    .container-all {
+    display: flex;
+    gap: 50px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-around;
+    flex-wrap: wrap;
+    }
+    .about {
+
+    }
+    .about p {
+        max-width: 100%;
+    }
+    .about-crug {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        align-content: flex-end;
+        flex-wrap: wrap;
+    }
+    .main-block-expert {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .person {
+        display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+    }
+    .name-person-teacher {
+        width: 450px;
+    }
+    .expert {
+        padding-left: 150px; 
+        padding-right: 150px;
+
+
+    } 
+
+    .btn-16 {
+      
+        margin-bottom: 15px;
+    }
+
+    .person p {
+        margin-bottom: 30px;
+    }
+    .connection {
+        padding-left: 0px; 
+    padding-right: 0px;
+    }
+    .connection  p{
+        width: 100%;
+    }
+    .conainer-person-model {
+        margin-right: 0;
+        width: 235px;
+        height: 400px;
+        margin-bottom: 31px;
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+        flex-direction: column;
+    }
+ }
+	
+
+  @media screen and (min-width: 320px) {
+    * {
+        outline: solid 1px blue;
+    }
+    html {
+        width: 100vh;
+    }
+    .menu {
+        
+        width: 70vh;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .ilustration {
+        position: absolute;
+    z-index: -1;
+    left: 77px;
+    }
+
+    .header span {
+        font-size: 10px;
+        width: 70%;
+        height: 70%;
+
+    }
+    .header h1 {
+        font-size: 10px;
+    }
+
+    .card__o_nas {
+        max-width: 100%;
+    height: 300px;
+    border-radius: inherit;
+    }
+
+    .video_o_nas {
+        height: 100%;
+    }
+
+    .button__play {
+        top: 165px;
+        left: 50%;
+        width: 100px;
+    }
+
+    .project_info {
+        display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: flex-start;
+    }
+
+    .img {
+        max-width: 477px;
+        left: 1px;
+        margin-left: 38px;    
+    }
+
+    .biografy_book-2 {
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    }
+    .card__o_nas-2 {
+        border-radius: unset
+    }
+
+    .biografy_book-1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin: 10px 0 30px 0;
+    }
+    .first__title {
+        font-size: 60px;
+    }
+    .button__play-2 {
+
+    }
+    .film {
+    padding-top: 40px;
+    height: 319px;
+    padding-bottom: 118px;
+    }
+    .film span {
+        display: flex;
+        max-width: 90%;
+        font-size: 23px;
+        margin: auto;    }
+    .img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .container-accor {
+        padding-left: 0;
+    }
+    .container-all {
+    display: flex;
+    gap: 50px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-around;
+    flex-wrap: wrap;
+    }
+    .about {
+
+    }
+    .about p {
+        max-width: 100%;
+    }
+    .about-crug {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        align-content: flex-end;
+        flex-wrap: wrap;
+    }
+    .main-block-expert {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .person {
+        display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+    }
+    .name-person-teacher {
+        width: 450px;
+    }
+    .expert {
+        padding-left: 150px; 
+        padding-right: 150px;
+
+
+    } 
+
+    .btn-16 {
+      
+        margin-bottom: 15px;
+    }
+
+    .person p {
+        margin-bottom: 30px;
+    }
+    .connection {
+        padding-left: 0px; 
+    padding-right: 0px;
+    }
+    .connection  p{
+        width: 100%;
+    }
+    .conainer-person-model {
+        margin-right: 0;
+        width: 235px;
+        height: 400px;
+        margin-bottom: 31px;
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+        flex-direction: column;
+    }
+  }
+
+
+  @media screen and (min-width: 375px) {
+    body {
+        background-color: rgb(82, 111, 255);
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+	
+  }
+  @media screen and (min-width: 500px) {
+	
+  }
+
+   @media screen and (min-width: 768px) {
+	
+  }
+
+    /* Важно */
+  @media screen and (min-width: 800px) {
+	
+  }
+
+/* Важно */
+  @media screen and (min-width: 1024px) {
+	
+  }
+  @media screen and (min-width: 1280px) {
+	
+  }
+
+  /* Важно */
+  @media screen and (max-width: 1366px) {
+	
+  }
+  @media screen and (max-width: 1440px) {
+	
+  }
+  @media screen and (max-width: 1536px) {
+	
+  }
+  @media screen and (max-width: 1600px) {
+	
+  } 
+  
